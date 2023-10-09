@@ -36,7 +36,7 @@ const Place = () => {
         <PlaceItem key={index}>
           <PlaceBox>
             {/* Link 컴포넌트를 사용하여 title을 가지고 두 번째 페이지로 이동 */}
-            <Link to={`/Second/${place.name}`}>{place.name}</Link>
+            <Link to={`/Second/${place.id}`}>{place.name}</Link>
           </PlaceBox>
         </PlaceItem>
       ))}
