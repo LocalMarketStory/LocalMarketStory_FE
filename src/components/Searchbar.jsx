@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const Searchbar = () => {
-    const [searchText, setSearchText] = useState(""); // 상태를 통해 입력 값을 관리
+    const [searchText, setSearchText] = useState("");
 
     const handleSearch = () => {
-        // 검색 버튼 클릭 시 검색 기능을 구현할 함수
-        // searchText 상태를 사용하여 검색어를 가져올 수 있습니다.
         console.log("검색어:", searchText);
-        // 여기에서 실제 검색 로직을 구현하세요.
     };
 
     return (

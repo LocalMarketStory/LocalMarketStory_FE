@@ -8,7 +8,7 @@ const Navbar=()=>{
     };
     return (
         <NavbarWrapper>
-            <HomeButton onclick={()=>handleNavigete("/LocalMarketStory")}>
+            <HomeButton onClick={()=>handleNavigete("/")}>
                 Home
             </HomeButton>
         </NavbarWrapper>

@@ -2,13 +2,15 @@ import Navbar from "../components/Navbar";
 import Searchbar from "../components/Searchbar";
 import styled from "styled-components";
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
 
     return (
         <LayoutWrapper>
-            <Searchbar/>
             <Navbar />
+            <Searchbar/>
+            <Outlet/>
         </LayoutWrapper>
     )
 };
