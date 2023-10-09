@@ -8,9 +8,9 @@ const Layout = () => {
 
     return (
         <LayoutWrapper>
-            <Navbar />
             <Searchbar/>
             <Outlet/>
+            <Navbar />
         </LayoutWrapper>
     )
 };
@@ -18,9 +18,9 @@ const Layout = () => {
 export default Layout;
 
 const LayoutWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    hight : 100%;
+    width: 100%;
 `;
