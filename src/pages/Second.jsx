@@ -12,7 +12,7 @@ const Place = () => {
   useEffect(() => {
     // 백엔드 API에 placeID를 포함한 요청을 보냅니다.
     axios
-      .get(`http://43.201.18.199:8080/tourism-spots/${placeID}`)
+      .get(`https://www.localstorybe.site/tourism-spots/${placeID}`)
       .then((response) => {
         setPlaceInfo(response.data);
         setLoading(false);

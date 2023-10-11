@@ -20,7 +20,7 @@ const Place = () => {
 
   const fetchDataFromServer = async () => {
     try {
-      const response = await axios.get("http://43.201.18.199:8080/tourism-spots");
+      const response = await axios.get("https://www.localstorybe.site/tourism-spots");
 
       const data = response.data;
 
