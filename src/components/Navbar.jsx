@@ -11,6 +11,9 @@ const Navbar=()=>{
             <HomeButton onClick={()=>handleNavigete("/")}>
                 Home
             </HomeButton>
+            <GptButton onClick={()=>handleNavigete("/Gptpage")}>
+                Make Plane
+            </GptButton>
         </NavbarWrapper>
     )
 };
@@ -19,10 +22,15 @@ export default Navbar;
 
 const NavbarWrapper = styled.div`
     display: flex;
-    gap: 1rem;
+
 `;
 
 const HomeButton = styled.div`
     width: 3.125rem;
+    height: 3.125rem;
+`;
+
+const GptButton = styled.div`
+    width: 3.125*2rem;
     height: 3.125rem;
 `;
