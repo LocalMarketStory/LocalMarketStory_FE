@@ -11,7 +11,7 @@ const Navbar=()=>{
             <HomeButton onClick={()=>handleNavigete("/")}>
                 Home
             </HomeButton>
-            <GptButton onClick={()=>handleNavigete("/Gptpage")}>
+            <GptButton onClick={()=>handleNavigete("/GPT")}>
                 Make Plane
             </GptButton>
         </NavbarWrapper>
