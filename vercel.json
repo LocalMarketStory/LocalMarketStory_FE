@@ -1,7 +1,7 @@
 {
     "build": {
       "env": {
-        "VITE_OPENAI_API_KEY": "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"
+        "VITE_OPENAI_API_KEY": "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"
       }
     }
   }
