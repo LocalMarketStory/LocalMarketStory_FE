@@ -48,10 +48,11 @@ export default Place;
 
 const PlaceWrapper = styled.div`
   display: grid;
+  width:100%;
   grid-template-columns: repeat(2, 1fr); /* 가로 2개의 열 */
   grid-template-rows: repeat(3, 1fr); /* 세로 3개의 행 */
   gap: 10px; /* 그리드 아이템 간의 간격 설정 */
-  width:100%;
+
 `;
 
 const PlaceItem = styled.div`
