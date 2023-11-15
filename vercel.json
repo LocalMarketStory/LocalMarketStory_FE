@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "VITE_OPENAI_API_KEY": "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"
+      }
+    }
+  }
+  
