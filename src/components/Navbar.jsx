@@ -22,6 +22,7 @@ export default Navbar;
 
 const NavbarWrapper = styled.div`
     display: flex;
+    align-items: center;
 
 `;
 

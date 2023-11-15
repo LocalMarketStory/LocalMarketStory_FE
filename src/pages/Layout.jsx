@@ -20,6 +20,7 @@ export default Layout;
 const LayoutWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow: hidden;
     hight : 100%;
     width: 100%;

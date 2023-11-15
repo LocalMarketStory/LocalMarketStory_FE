@@ -51,6 +51,7 @@ const PlaceWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr); /* 가로 2개의 열 */
   grid-template-rows: repeat(3, 1fr); /* 세로 3개의 행 */
   gap: 10px; /* 그리드 아이템 간의 간격 설정 */
+  width:100%;
 `;
 
 const PlaceItem = styled.div`
@@ -60,10 +61,12 @@ const PlaceItem = styled.div`
   background-color: #f0f0f0; /* 상자 배경색 설정 */
   padding: 10px;
   border: 1px solid #ccc;
+  margin-top: 5px;
 `;
 
 const PlaceBox = styled.div`
   text-align: center;
+  width: auto;
 `;
 
 const PlaceTitle = styled.div`
